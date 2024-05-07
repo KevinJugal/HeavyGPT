@@ -18,7 +18,8 @@ We start by initializing our FastAPI app in the main.py file. Additionally, we i
 <br>
 Step 3: Integrating with OpenAI ChatGPT<br>
 We're going to use OpenAI's GPT-3 model to generate product descriptions.<br>
-In utils.py, we're initializing the OpenAI API key and defining a function generate_description which takes in product details and returns a generated description.
+In utils.py, we're initializing the OpenAI API key and defining a function generate_description which takes in product details and returns a generated description.<br>
+Make sure you put your OpenAI API key.
 <br>
 <br>
 <br>
