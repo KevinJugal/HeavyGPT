@@ -29,12 +29,17 @@ uvicorn main:app --reload
 <br>
 <br>
 <br>
-Once you are done with this, in order to connect to the Amazon EC2 server connect with the following code on your bash terminal<br>
+
+You can connect this code with the Amazon Web Services (I used the EC2) by choosing an Instance.
+
 <br>
+After choosing an instance download WinSCP or Putty to connect the AWS with your code.
 <br>
-SSH Client : chmod 400 "HeavyGPT.pem"<br>
+
+Make sure you give the right IP address from AWS to WinSCP and transfer the files from your local directory to WinSCP directory.
+
 <br>
-Run this to go on to the EC2 terminal:<br>
+
+After completing the steps, you have to install all the libraries again in the command line of WinSCP and then run the virtual environment on there.
 <br>
-"ssh -i "HeavyGPT.pem" ec2-user@ec2-13-232-41-169.ap-south-1.compute.amazonaws.com"<br>Copy the key in betwee the double quotes
-<br>
+Now you can access the GPT from the AWS server
