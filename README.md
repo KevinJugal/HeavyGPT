@@ -2,6 +2,10 @@
 Built a Python API using FastAPI and integrate it with OpenAI's ChatGPT. Deployed on AWS EC2
 
 
+Before getting into it, we need to initialize a virtual environment, make sure you have venv installed if not : pip install venv<br><br>
+Initialize by: python -m venv fastapi<br>
+fastapi is the name of the environment that I have taken and then follow the below steps:<br><br>
+
 Step 1: Setup <br>
 First, we'll need to install the required packages. For this project, we're going to use FastAPI and Uvicorn for creating and running our API, and OpenAI to use the GPT-3 model for text generation.
 <br>
