@@ -35,5 +35,5 @@ SSH Client : chmod 400 "HeavyGPT.pem"<br>
 <br>
 Run this to go on to the EC2 terminal:<br>
 <br>
-ssh -i "HeavyGPT.pem" ec2-user@ec2-13-232-41-169.ap-south-1.compute.amazonaws.com<br>
+"ssh -i "HeavyGPT.pem" ec2-user@ec2-13-232-41-169.ap-south-1.compute.amazonaws.com"<br>Copy the key in betwee the double quotes
 <br>
